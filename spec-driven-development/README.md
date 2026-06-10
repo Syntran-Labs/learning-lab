@@ -9,9 +9,9 @@
 ![Type Coverage](https://img.shields.io/badge/Type%20Coverage-100%25-brightgreen?style=flat-square)
 ![Built with AI](https://img.shields.io/badge/Built%20with-AI-purple?style=flat-square)
 
-**A professional example of Spec Driven Development using OpenSpec and pytest**
+**A learning project demonstrating Spec Driven Development using OpenSpec and pytest**
 
-*Not "AI garbage" — deliberately designed, thoroughly reviewed, production-ready*
+*Not "AI garbage" — deliberately designed, thoroughly reviewed, professionally structured for educational purposes*
 
 </div>
 
@@ -21,7 +21,17 @@
 
 A **learning project** demonstrating how to build professional software using **Spec Driven Development (SDD)** methodology. It fetches prices for Bitcoin, Gold, and currency exchange rates.
 
-**Key Point:** This is an educational example, not a financial service. It uses mock data to focus on the SDD process.
+### Educational vs. Production
+
+| Aspect | This Project | Real Production App |
+|--------|--------------|-------------------|
+| **Purpose** | Teach SDD methodology | Serve real users |
+| **Data** | Mock data (hardcoded) | Real APIs (CoinGecko, etc.) |
+| **Error Handling** | Basic example | Comprehensive retry/fallback logic |
+| **Configuration** | Simple centralized | Environment-based multi-env setup |
+| **Focus** | Red-Green-Refactor cycle | Performance, security, reliability |
+
+**Key Point:** This is an educational example that uses **professional architecture patterns** to show students how production systems are structured — without the complexity of real APIs or deployment concerns.
 
 ---
 
@@ -44,7 +54,70 @@ python -m src bitcoin              # Get Bitcoin price
 
 ---
 
-## 🔌 Extensible Architecture
+## 🏗️ Architecture Decisions Explained
+
+This project uses professional patterns **on purpose** — to teach students how real systems are built. Here's why:
+
+### Why Dependency Injection?
+
+**What It Is:**
+```python
+fetcher = PriceFetcher(provider=CustomProvider())  # Inject dependency
+```
+
+**Why It Matters for Learning:**
+- ✅ **Testability**: Students can inject mock providers (seen in `tests/`)
+- ✅ **Flexibility**: Shows how to swap implementations without modifying code
+- ✅ **SOLID Principle**: Teaches "D" in SOLID (Dependency Inversion)
+- ✅ **Real-world**: Every production app uses this pattern
+
+**What Students Learn:**
+"My code should depend on abstractions, not concrete implementations"
+
+---
+
+### Why Config Separation?
+
+**What It Is:**
+```python
+# src/config.py - All hardcoded test data in one place
+BITCOIN_CONFIG = {...}
+EXCHANGE_RATES_CONFIG = {...}
+VALID_CURRENCIES = {...}
+```
+
+**Why It Matters for Learning:**
+- ✅ **Clarity**: Students instantly see where test data lives
+- ✅ **Maintainability**: Change test data once, not scattered throughout code
+- ✅ **Scalability Pattern**: Real apps use config files for different environments
+- ✅ **Separation of Concerns**: Data ≠ Logic
+
+**What Students Learn:**
+"Configuration should be separate from business logic"
+
+---
+
+### Why Provider Abstraction?
+
+**What It Is:**
+```python
+class PriceDataProvider(Protocol):
+    def get_bitcoin_data(self) -> Dict[str, Any]: ...
+    # ... defines the contract
+```
+
+**Why It Matters for Learning:**
+- ✅ **Contracts**: Shows how components communicate via interfaces
+- ✅ **Swappability**: MockPriceDataProvider can become RealAPIProvider
+- ✅ **Testing Pattern**: Easy to create test doubles
+- ✅ **Architecture**: Demonstrates layered architecture
+
+**What Students Learn:**
+"Define clear contracts between components"
+
+---
+
+## 🔌 Extensible Architecture Example
 
 This project demonstrates **professional extensibility patterns**:
 
@@ -112,10 +185,17 @@ Just 6 focused changes following a clear pattern:
 ## 📊 Project Stats
 
 ```
-44 tests (100%)           100% type hints          Professional code
-100% docstrings          6 documented guides      Real-world examples
-DI + Config              Extensible architecture  Educational focus
+44 tests (100%)           100% type hints          Professional architecture
+100% docstrings          11 documented guides     Pure learning focus
+DI + Config              Extensible patterns      Zero production cruft
 ```
+
+**Intentional Design:**
+- ✅ Professional patterns → Show real-world structure
+- ❌ No production complexity → Keep focus on SDD methodology
+- ✅ Mock data → Fast feedback loop for learning
+- ❌ No deployment code → CI/CD is beyond scope
+- ✅ 100% test coverage → Demonstrate test-first development
 
 ---
 

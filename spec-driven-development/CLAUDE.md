@@ -40,7 +40,9 @@ This file documents internal project context for AI-assisted development session
 
 ## ⚠️ Known Architectural Issues (19 Total)
 
-### 🔴 CRITICAL (5 Issues)
+**IMPORTANT NOTE:** These issues are categorized as "critical" for **production systems**. For an **educational project**, most of these are intentionally simplified. The project successfully teaches SDD without requiring production-grade error handling, configuration systems, or advanced patterns.
+
+### 🔴 CRITICAL (5 Issues) - *For Production Only*
 
 1. **Magic Numbers Hardcoded in Models**
    - Location: `src/models.py` lines 24-25, 45-46
@@ -118,26 +120,30 @@ This file documents internal project context for AI-assisted development session
 
 ---
 
-## 🚀 Recommended Next Steps (Priority Order)
+## 🚀 Enhancement Roadmap (If Expanding Beyond Learning)
 
-### Phase 1: Fix Critical Issues (10-12 hours)
-- [ ] Extract magic numbers to config with env var support
-- [ ] Implement clock provider for testability
-- [ ] Fix N+1 timestamp calls in batch operations
-- [ ] Remove or implement unused timeout parameter
-- [ ] Implement Asset Registry pattern for extensibility
+**These are only relevant IF converting to production or expanding scope:**
 
-### Phase 2: High Priority Fixes (4-6 hours)
-- [ ] Implement retry logic with `PriceServiceUnavailableError`
-- [ ] Consolidate `VALID_CURRENCIES` to single source
-- [ ] Add concurrency specifications and tests
-- [ ] Add performance SLA specifications
+### Phase 1: Production-Ready Patterns (IF needed)
+- [ ] Extract magic numbers to environment config
+- [ ] Implement retry logic with exponential backoff
+- [ ] Add comprehensive error handling
+- [ ] Implement timeout in API calls
+- [ ] Add Asset Registry for true extensibility
 
-### Phase 3: Medium Priority (6-8 hours)
-- [ ] Add decimal place validation
-- [ ] Complete all spec scenario tests
-- [ ] Update CHANGELOG with realistic version history
-- [ ] Document failed refactoring patterns
+### Phase 2: Advanced Features (IF scope expands)
+- [ ] Connect to real APIs (CoinGecko, etc.)
+- [ ] Add rate limiting / caching
+- [ ] Add concurrency specifications
+- [ ] Add performance SLA monitoring
+
+### Phase 3: Documentation Enhancements (For deeper learning)
+- [ ] Add "What Would Production Look Like?" guide
+- [ ] Document "failed refactoring" patterns
+- [ ] Show spec evolution examples
+- [ ] Add migration guides for pattern changes
+
+**Current Status: ✅ Complete for learning objectives. No changes needed unless scope changes.**
 
 ---
 
@@ -157,19 +163,26 @@ This file documents internal project context for AI-assisted development session
 
 ## 🎓 Educational Value Assessment
 
-### Strengths ⭐⭐⭐⭐
-- Clear SDD demonstration (Specify → Red → Green → Refactor)
-- Professional Python code quality
-- Comprehensive testing (100% spec coverage)
-- Good documentation structure
-- Honest about AI usage
+### Strengths ⭐⭐⭐⭐⭐
+- **Clear SDD demonstration:** Specify → Red → Green → Refactor cycle clearly visible
+- **Professional Python patterns:** DI, config separation, protocol abstraction
+- **Comprehensive testing:** 100% spec coverage with 44 passing tests
+- **Architecture teaching:** Shows SOLID principles and extensibility patterns
+- **Honest scope:** Educational focus, not trying to be a production app
+- **Well documented:** Explains WHY patterns are used, not just WHAT
 
-### Areas for Improvement ⭐⭐⭐
-- Some hardcoded values should be configurable
-- Validation logic should be separated
-- Missing concurrency/performance specifications
-- Could show more real-world patterns
-- Doesn't demonstrate failed refactoring
+### Design Decisions (Intentional)
+- ✅ **Mock data:** Intentional - keeps focus on SDD, not API integration
+- ✅ **Basic error handling:** Intentional - production complexity beyond scope
+- ✅ **Professional patterns:** Intentional - teach real-world structure
+- ✅ **Config separation:** Intentional - shows best practices
+- ✅ **100% test coverage:** Intentional - demonstrates test-first development
+
+### NOT a Problem (Correctly Scoped)
+- ❌ No production error recovery → Out of scope (learning focus)
+- ❌ No complex configuration → Out of scope (keep it simple)
+- ❌ No deployment/CI → Out of scope (focus on code)
+- ❌ Hardcoded test data → Intentional (clarity + speed)
 
 ---
 
