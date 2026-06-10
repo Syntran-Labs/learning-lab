@@ -256,7 +256,7 @@ The key is:
 - [LEARNING.md](LEARNING.md) - Learn SDD concepts
 - [README.md](README.md) - Project overview
 - [CONTRIBUTING.md](CONTRIBUTING.md) - How to contribute
-- [ACKNOWLEDGMENTS.md](ACKNOWLEDGMENTS.md) - Credits and thanks
+- [09-acknowledgments.md](09-acknowledgments.md) - Credits and thanks
 
 ---
 

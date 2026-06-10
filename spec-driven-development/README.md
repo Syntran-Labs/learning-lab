@@ -90,6 +90,9 @@ Just 6 focused changes following a clear pattern:
 | **[Built with AI](docs/06-ai-transparency.md)** | Everyone | How AI was used responsibly |
 | **[Extending Architecture](docs/07-extending-architecture.md)** | Advanced learners | DI, config extraction, protocol design, extensibility |
 | **[Tutorial: Add Ethereum](docs/08-tutorial-add-ethereum.md)** | Hands-on builders | Step-by-step guide to extend with new assets |
+| **[Acknowledgments](docs/09-acknowledgments.md)** | Everyone | Credits and thanks to projects and communities |
+| **[Changelog](docs/10-changelog.md)** | Maintainers | Version history and release notes |
+| **[Code of Conduct](docs/11-code-of-conduct.md)** | Community | Community standards and expectations |
 
 ---
 
@@ -132,8 +135,9 @@ This project uses AI responsibly:
 ## 🔗 Key Links
 
 - **[OpenSpec](https://github.com/Fission-AI/OpenSpec/)** — The specification framework we use
-- **[CHANGELOG](CHANGELOG.md)** — Version history
-- **[Code of Conduct](CODE_OF_CONDUCT.md)** — Community standards
+- **[Changelog](docs/10-changelog.md)** — Version history
+- **[Code of Conduct](docs/11-code-of-conduct.md)** — Community standards
+- **[Acknowledgments](docs/09-acknowledgments.md)** — Credits and thanks
 
 ---
 

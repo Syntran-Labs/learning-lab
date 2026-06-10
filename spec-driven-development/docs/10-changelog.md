@@ -186,6 +186,6 @@ All future work would follow the same SDD pattern: Specify → Generate → Red 
 
 **This project is a learning resource for Spec Driven Development**
 
-See [README.md](README.md) for usage and [LEARNING.md](LEARNING.md) for concepts.
+See [README.md](../README.md) for usage and [02-learning-sdd.md](02-learning-sdd.md) for concepts.
 
 </div>

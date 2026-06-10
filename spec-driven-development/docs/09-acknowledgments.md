@@ -121,7 +121,7 @@ This project was created as an educational resource. If you contribute, you'll b
 
 ### Future Contributors
 
-Your name could be here! See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+Your name could be here! See [05-contribute.md](05-contribute.md) for guidelines.
 
 ---
 
@@ -177,7 +177,7 @@ If you benefit from this project, please:
 
 3. **🔗 Link it** - Reference it in your documentation or blog
 
-4. **🛠️ Contribute** - Add improvements or new examples (see [CONTRIBUTING.md](CONTRIBUTING.md))
+4. **🛠️ Contribute** - Add improvements or new examples (see [05-contribute.md](05-contribute.md))
 
 5. **🐛 Report issues** - Help us improve quality
 
