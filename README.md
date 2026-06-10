@@ -3,14 +3,17 @@
 <div align="center">
 
 ![Track](https://img.shields.io/badge/Syntran%20Labs-Learning%20Track-purple?style=flat-square)
-![AI](https://img.shields.io/badge/Practice-AI--assisted%20Engineering-brightgreen?style=flat-square)
+![Purpose](https://img.shields.io/badge/Purpose-Learn%20by%20Building-brightgreen?style=flat-square)
+![Current](https://img.shields.io/badge/Now%20Teaching-Spec%20Driven%20Development-blue?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python&logoColor=white)
 ![Docs](https://img.shields.io/badge/Documentation-First-orange?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
 
-**A technical experimentation space for learning, testing, and documenting modern software development practices.**
+**Educational engineering projects designed to explore, explain, and teach technical concepts.**
 
-*Part of the **Learning Lab** track at [Syntran Labs](https://github.com/Syntran-Labs)*
+*Every project here is built so that someone can learn the topic from it — and use it as a starting point for their own work.*
+
+*Part of [Syntran Labs](https://github.com/Syntran-Labs)*
 
 </div>
 
@@ -18,95 +21,71 @@
 
 ## ✨ What Is This?
 
-A controlled space for experimenting with development patterns **before** applying them to production or client-facing projects.
+Learning Lab is a collection of **hands-on educational projects**. Each one is built around a specific topic in modern software engineering, and designed to answer one question:
 
-This repository explores practical workflows involving:
+> **"If someone wanted to learn this topic by example, what would the ideal project look like?"**
 
-| Area | What's Explored |
+That means every project in this lab aims to be:
+
+| Quality | What It Means for You as a Learner |
 |---|---|
-| 📋 **Spec-Driven Development** | Defining requirements and expected behavior before implementation |
-| 🤖 **AI-assisted engineering** | Making AI-generated code reliable, reviewable, and maintainable |
-| 🔀 **Git & GitHub workflows** | Branching, reviews, and traceable collaboration |
-| 📖 **Documentation-first development** | Docs that evolve together with code and tests |
-| ✅ **Testing strategies** | Validating outputs and preventing regressions |
-| 🧱 **Project structure** | Turning small experiments into reusable templates |
-
-> **The goal is not only to write code, but to build repeatable, understandable, and traceable development processes.**
+| 📖 **Fully documented** | Not just code — concepts, decisions, and reasoning are explained |
+| 🔁 **Reproducible** | Clone it, run it, and get the same results, step by step |
+| 🧱 **Professionally structured** | Learn the topic *and* what a well-organized project looks like |
+| 🚀 **A starting point** | Designed to be extended — tutorials show you how to build on top |
+| 🪞 **Honest about scope** | Educational examples, clearly labeled — no pretending to be production services |
 
 ---
 
-## ❓ Questions This Lab Tries to Answer
+## 📚 Learning Projects
 
-- How can AI-assisted development be made more **reliable**?
-- How can requirements be translated into **clear specifications**?
-- How can generated code remain **maintainable and understandable**?
-- How can documentation, testing, and implementation **evolve together**?
-- How can small experiments become **reusable project templates**?
+| Project | Topic | Status | What You'll Learn |
+|---|---|:---:|---|
+| **[Price Fetcher — SDD](https://github.com/Syntran-Labs/price-fetcher-sdd)** | Spec-Driven Development | ✅ Published | Executable specs (OpenSpec), Red-Green-Refactor, pytest, dependency injection, extensible architecture |
+| *Next topic* | — | 📋 Planned | — |
+
+> 🌱 The lab is just getting started — Spec-Driven Development is the first topic, not the only one. New learning projects on AI-assisted engineering, testing, and software design are on the way.
 
 ---
 
-## 🧭 Repository Philosophy
+## 🧭 Teaching Philosophy
 
-> **Code is not enough.** A good project should explain what it does, why it exists, how it works, and how it can be validated.
+> **Code is not enough.** A good learning project should explain what it does, why it exists, how it works, and how it can be validated.
 
-For that reason, experiments in this repository may include:
+For that reason, every project here includes more than source code:
 
 ```
 Functional code          Technical specifications     Design notes
-Test cases               Architecture decisions       Prompting workflows
+Test cases               Architecture decisions       Step-by-step tutorials
 Lessons learned
 ```
 
----
-
-## 🚀 Featured Experiments
-
-| Experiment | Status | What It Demonstrates |
-|---|:---:|---|
-| **[Price Fetcher — SDD](https://github.com/Syntran-Labs/price-fetcher-sdd)** | ✅ Published | Full Spec-Driven Development cycle: OpenSpec, pytest, DI, extensible architecture |
-| *Next experiment* | 📋 Planned | — |
-
----
-
-## 🔍 Current Focus
-
-The current focus is learning and testing **Spec-Driven Development (SDD)** workflows.
-
-SDD emphasizes defining clear requirements and expected behavior **before** implementation. This approach is especially useful when working with AI coding assistants, because it reduces ambiguity and improves consistency across generated code.
-
-Key areas being explored:
-
-- ✍️ Writing structured specifications
-- 🔄 Converting requirements into implementation tasks
-- 🤖 Using AI tools to generate or refactor code
-- ✅ Validating outputs with tests
-- 🔗 Maintaining traceability between requirements, code, and documentation
-
----
-
-## 📁 Project Structure
-
-The structure evolves as new experiments are added. A typical experiment looks like:
+And follows a consistent structure, so once you've learned one project, you can navigate them all:
 
 ```text
-learning-lab/
-├── experiments/
-│   └── example-project/
-│       ├── README.md
-│       ├── specs/
-│       ├── src/
-│       ├── tests/
-│       └── docs/
-├── docs/
-├── notes/
-└── README.md
+project/
+├── README.md        ← start here: what, why, how
+├── specs/           ← requirements and expected behavior
+├── src/             ← the implementation
+├── tests/           ← how correctness is validated
+└── docs/            ← guides, tutorials, and deep dives
 ```
+
+---
+
+## 🚦 How to Use This Lab
+
+1. **Pick a topic** from the table above that you want to learn
+2. **Read the project's README** — it explains the concept before the code
+3. **Clone it and run the tests** — see it working on your machine
+4. **Follow the extension tutorial** — every project includes a guided exercise to build something new on top
+5. **Make it yours** — fork it and use it as the starting point for your own project
 
 ---
 
 ## 🔗 Key Links
 
-- **[Syntran Labs](https://github.com/Syntran-Labs)** — The full AI engineering portfolio
+- **[Syntran Labs](https://github.com/Syntran-Labs)** — The full portfolio
 - **[systems-lab](https://github.com/Syntran-Labs/systems-lab)** — Production-oriented AI systems track
 - **[paper-lab](https://github.com/Syntran-Labs/paper-lab)** — Research-to-code track
 
@@ -115,6 +94,8 @@ learning-lab/
 <div align="center">
 
 *Built at [Syntran Labs](https://github.com/Syntran-Labs) by Leonardo Sigales*
+
+*Found a project useful for learning? A ⭐ helps others find it too.*
 
 **[Connect on LinkedIn →](https://www.linkedin.com/in/leonardo-sigales-58296619)**
 
