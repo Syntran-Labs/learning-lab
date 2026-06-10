@@ -4,7 +4,6 @@
 
 ![Track](https://img.shields.io/badge/Syntran%20Labs-Learning%20Track-purple?style=flat-square)
 ![Purpose](https://img.shields.io/badge/Purpose-Learn%20by%20Building-brightgreen?style=flat-square)
-![Current](https://img.shields.io/badge/Now%20Teaching-Spec%20Driven%20Development-blue?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python&logoColor=white)
 ![Docs](https://img.shields.io/badge/Documentation-First-orange?style=flat-square)
 ![Status](https://img.shields.io/badge/Status-Active-success?style=flat-square)
