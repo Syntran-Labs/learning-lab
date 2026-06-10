@@ -3,7 +3,6 @@
 <div align="center">
 
 ![Track](https://img.shields.io/badge/Syntran%20Labs-Learning%20Track-purple?style=flat-square)
-![Focus](https://img.shields.io/badge/Focus-Spec%20Driven%20Development-blue?style=flat-square)
 ![AI](https://img.shields.io/badge/Practice-AI--assisted%20Engineering-brightgreen?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python&logoColor=white)
 ![Docs](https://img.shields.io/badge/Documentation-First-orange?style=flat-square)
