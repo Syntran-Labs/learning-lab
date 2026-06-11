@@ -40,7 +40,7 @@ That means every project in this lab aims to be:
 
 | Project | Topic | Status | What You'll Learn |
 |---|---|:---:|---|
-| **[Price Fetcher — SDD](https://github.com/Syntran-Labs/price-fetcher-sdd)** | Spec-Driven Development | ✅ Published | Executable specs (OpenSpec), Red-Green-Refactor, pytest, dependency injection, extensible architecture |
+| **[Learn Spec-Driven Development](https://github.com/Syntran-Labs/learn-spec-driven-dev)** | Spec-Driven Development | ✅ Published | Executable specs (OpenSpec), Red-Green-Refactor, pytest, dependency injection, extensible architecture |
 | **Databricks Primer** | Data Engineering | 🔜 Coming soon | Databricks workspace fundamentals, PySpark basics, Delta Lake, notebooks and jobs — from zero to a working data pipeline |
 | **Neural Networks Primer** | Machine Learning | 🔜 Coming soon | How neural networks actually work: perceptrons, forward pass, backpropagation, and training — built from scratch before using a framework |
 
