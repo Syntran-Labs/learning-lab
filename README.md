@@ -52,7 +52,7 @@ Each project is a **standalone repository** with its own README, documentation, 
 
 > **Code is not enough.** A good learning project should explain what it does, why it exists, how it works, and how it can be validated.
 
-For that reason, every project here includes more than source code:
+For that reason, every project in this collection includes more than source code:
 
 ```
 Functional code          Technical specifications     Design notes
