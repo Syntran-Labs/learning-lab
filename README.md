@@ -20,11 +20,11 @@
 
 ## ✨ What Is This?
 
-Learning Lab is a collection of **hands-on educational projects**. Each one is built around a specific topic in modern software engineering, and designed to answer one question:
+**Learning Lab is a curated catalog of self-contained educational repositories.** Each project is built around a specific topic in modern software engineering, and designed to answer one question:
 
 > **"If someone wanted to learn this topic by example, what would the ideal project look like?"**
 
-That means every project in this lab aims to be:
+That means every project in this collection aims to be:
 
 | Quality | What It Means for You as a Learner |
 |---|---|
@@ -36,11 +36,13 @@ That means every project in this lab aims to be:
 
 ---
 
-## 📚 Learning Projects
+## 📚 Published Projects
+
+Each project is a **standalone repository** with its own README, documentation, tests, issues, and contribution path.
 
 | Project | Topic | Status | What You'll Learn |
 |---|---|:---:|---|
-| **[Learn Spec-Driven Development](https://github.com/Syntran-Labs/learn-spec-driven-dev)** | Spec-Driven Development | ✅ Published | Executable specs (OpenSpec), Red-Green-Refactor, pytest, dependency injection, extensible architecture |
+| **[Learn Spec-Driven Development](https://github.com/Syntran-Labs/learn-spec-driven-dev)** | Spec-Driven Development | ✅ Published | A hands-on Python learning project demonstrating executable specifications (OpenSpec), pytest, Red-Green-Refactor, dependency injection, responsible AI-assisted engineering |
 | **Databricks Primer** | Data Engineering | 🔜 Coming soon | Databricks workspace fundamentals, PySpark basics, Delta Lake, notebooks and jobs — from zero to a working data pipeline |
 | **Neural Networks Primer** | Machine Learning | 🔜 Coming soon | How neural networks actually work: perceptrons, forward pass, backpropagation, and training — built from scratch before using a framework |
 
@@ -73,13 +75,14 @@ project/
 
 ---
 
-## 🚦 How to Use This Lab
+## 🚦 How to Use Learning Lab
 
-1. **Pick a topic** from the table above that you want to learn
-2. **Read the project's README** — it explains the concept before the code
-3. **Clone it and run the tests** — see it working on your machine
-4. **Follow the extension tutorial** — every project includes a guided exercise to build something new on top
-5. **Make it yours** — fork it and use it as the starting point for your own project
+1. **Pick a topic** from the Published Projects table above that interests you
+2. **Go to the project repository** — each has its own complete README, documentation, and setup instructions
+3. **Clone it and run the tests** — see it working on your machine in 5 minutes
+4. **Read the docs and follow tutorials** — each project includes guides, examples, and hands-on exercises
+5. **Contribute or extend** — each project welcomes documentation, specs, tests, examples, and educational improvements
+6. **Use as a starting point** — fork it and adapt it for your own learning or teaching
 
 ---
 
