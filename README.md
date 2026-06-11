@@ -10,7 +10,7 @@
 
 **Educational engineering projects designed to explore, explain, and teach technical concepts.**
 
-*Every project here is built so that someone can learn the topic from it — and use it as a starting point for their own work.*
+*Every project in this collection is built so that someone can learn the topic from it — and use it as a starting point for their own work.*
 
 *Part of [Syntran Labs](https://github.com/Syntran-Labs)*
 
@@ -20,7 +20,7 @@
 
 ## ✨ What Is This?
 
-**Learning Lab is a curated catalog of self-contained educational repositories.** Each project is built around a specific topic in modern software engineering, and designed to answer one question:
+**Learning Lab is a curated catalog of self-contained educational engineering repositories from Syntran Labs.** Each project lives in its own standalone `learn-*` repository with its own README, docs, tests, issues, and contribution path. Each project is built around a specific topic in modern software engineering, and designed to answer one question:
 
 > **"If someone wanted to learn this topic by example, what would the ideal project look like?"**
 
@@ -39,6 +39,8 @@ That means every project in this collection aims to be:
 ## 📚 Published Projects
 
 Each project is a **standalone repository** with its own README, documentation, tests, issues, and contribution path.
+
+**[learn-spec-driven-dev](https://github.com/Syntran-Labs/learn-spec-driven-dev)** is the first published project in the Syntran Labs Learning Lab catalog.
 
 | Project | Topic | Status | What You'll Learn |
 |---|---|:---:|---|
