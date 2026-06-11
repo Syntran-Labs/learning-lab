@@ -1,7 +1,5 @@
 # 🎓 Learning Lab
 
-<div align="center">
-
 ![Track](https://img.shields.io/badge/Syntran%20Labs-Learning%20Track-purple?style=flat-square)
 ![Purpose](https://img.shields.io/badge/Purpose-Learn%20by%20Building-brightgreen?style=flat-square)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=flat-square&logo=python&logoColor=white)
@@ -13,8 +11,6 @@
 *Every project in this collection is built so that someone can learn the topic from it — and use it as a starting point for their own work.*
 
 *Part of [Syntran Labs](https://github.com/Syntran-Labs)*
-
-</div>
 
 ---
 
@@ -96,12 +92,8 @@ project/
 
 ---
 
-<div align="center">
-
 *Built at [Syntran Labs](https://github.com/Syntran-Labs) by Leonardo Sigales*
 
 *Found a project useful for learning? A ⭐ helps others find it too.*
 
 **[Connect on LinkedIn →](https://www.linkedin.com/in/leonardo-sigales-58296619)**
-
-</div>
