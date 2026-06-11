@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"e:\\\\Users\\\\User\\\\Documents\\\\Coding Proyects\\\\learning-lab\" -Directory)",
+      "Bash(Select-Object Name)",
+      "Bash(ls -la \"e:\\\\Users\\\\User\\\\Documents\\\\Coding Proyects\\\\learning-lab\")",
+      "Read(//e/Users/User/Documents/Coding Proyects/learning-lab/**)",
+      "Bash(find \"e:\\\\Users\\\\User\\\\Documents\\\\Coding Proyects\" -maxdepth 2 -type d -name \"*spec*\" 2>/dev/null | head -20)",
+      "Read(//e/Users/User/Documents/Coding Proyects/**)"
+    ],
+    "additionalDirectories": [
+      "e:\\Users\\User\\Documents\\Coding Proyects\\learning-lab",
+      "e:\\Users\\User\\Documents\\Coding Proyects\\learn-spec-driven-dev",
+      "e:\\Users\\User\\Documents\\Coding Proyects\\syntran-dot-github\\profile"
+    ]
+  }
+}
