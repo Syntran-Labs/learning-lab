@@ -36,11 +36,12 @@ That means every project in this collection aims to be:
 
 Each project is a **standalone repository** with its own README, documentation, tests, issues, and contribution path.
 
-**[learn-spec-driven-dev](https://github.com/Syntran-Labs/learn-spec-driven-dev)** is the first published project in the Syntran Labs Learning Lab catalog.
+Every project marked **✅ Published** is live in the Syntran Labs Learning Lab catalog — ready to clone, run, and learn from today.
 
 | Project | Topic | Status | What You'll Learn |
 |---|---|:---:|---|
 | **[Learn Spec-Driven Development](https://github.com/Syntran-Labs/learn-spec-driven-dev)** | Spec-Driven Development | ✅ Published | A hands-on Python learning project demonstrating executable specifications (OpenSpec), pytest, Red-Green-Refactor, dependency injection, responsible AI-assisted engineering |
+| **[Learn RunPod LLM Serving](https://github.com/Syntran-Labs/learn-runpod-llm-serving)** | LLMOps — Self-Hosted LLM Serving | ✅ Published | Deploy a real 20B-class LLM (GPT-OSS-20B) on a $0.22-0.27/hr GPU marketplace pod with a one-command gated lifecycle; OpenAI-compatible serving over SSH with zero public ports; reproducible server-side benchmarking and cost-per-token analysis (~$0.32-0.43/M generated tokens); honest ops documentation where the failures and their fixes are part of the learning material (SESSION-LOG, KNOWN-ISSUES) |
 | **Databricks Primer** | Data Engineering | 🔜 Coming soon | Databricks workspace fundamentals, PySpark basics, Delta Lake, notebooks and jobs — from zero to a working data pipeline |
 | **Neural Networks Primer** | Machine Learning | 🔜 Coming soon | How neural networks actually work: perceptrons, forward pass, backpropagation, and training — built from scratch before using a framework |
 
@@ -60,7 +61,7 @@ Test cases               Architecture decisions       Step-by-step tutorials
 Lessons learned
 ```
 
-And follows a consistent structure, so once you've learned one project, you can navigate them all:
+And follows a consistent structure — adapted to each project's domain — so once you've learned one project, you can navigate them all. The default layout looks like this:
 
 ```text
 project/
